@@ -1,15 +1,14 @@
-// src/index.js
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css'; // Your global CSS
+import './index.css'; 
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter } from 'react-router-dom'; // Keep BrowserRouter here
+import { BrowserRouter } from 'react-router-dom'; 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter> {/* This is the ONLY place BrowserRouter should be used */}
+    <BrowserRouter>
       <App />
     </BrowserRouter>
   </React.StrictMode>

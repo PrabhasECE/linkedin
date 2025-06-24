@@ -287,12 +287,7 @@ export const dummyJobs = [
   },
 ];
 
-
-// --- Dummy Data for Conversations (Make sure this array is not empty) ---
 export const dummyConversations = [
-  // IMPORTANT: Ensure this array contains at least one conversation object,
-  // and each conversation object has a 'messages' array property.
-  // Example:
   {
     id: 1,
     name: 'Poojitha Mannava',
@@ -510,11 +505,10 @@ export const dummyNotifications = [
   }
 ];
 
-// Dummy Data (replace with your actual props/state management)
 export const dummyProfileData = {
   name: "Prabhas Mannava",
   headline: "Full Stack Developer | React.js | Material UI Enthusiast", 
-  location: "Ponnur, Andhra Pradesh, India",
+  location: "Sattenapalle, Andhra Pradesh, India",
   connections: 500,
   views: 120,
   searchAppearances: 17,
@@ -535,9 +529,9 @@ export const dummyProfileData = {
   ],
   skills: ["React.js", "Material UI", "JavaScript", "HTML", "CSS", "Git", "MongoDB"],
   peopleYouMayKnow: [
-    { id: 1, name: "Alice Wonderland", headline: "Software Engineer", avatar: "https://placehold.co/40x40/ADD8E6/000000?text=AW" },
-    { id: 2, name: "Bob The Builder", headline: "Project Manager", avatar: "https://placehold.co/40x40/90EE90/000000?text=BB" },
-    { id: 3, name: "Charlie Chaplin", headline: "UI/UX Designer", avatar: "https://placehold.co/40x40/FFB6C1/000000?text=CC" },
+    { id: 1, name: "Amarnath The Coder", headline: "Software Engineer", avatar: "https://placehold.co/40x40/ADD8E6/000000?text=AW" },
+    { id: 2, name: "Prabhas The Hacker", headline: "Project Manager", avatar: "https://placehold.co/40x40/90EE90/000000?text=BB" },
+    { id: 3, name: "Ravi The Smarter", headline: "UI/UX Designer", avatar: "https://placehold.co/40x40/FFB6C1/000000?text=CC" },
   ],
   recommendedCourses: [
     { id: 1, title: "Mastering React Hooks", provider: "LinkedIn Learning" },
@@ -546,37 +540,33 @@ export const dummyProfileData = {
   ],
 };
 
-
-
 export const recentConversations = [
   {
     id: 1,
-    name: "ChatGPT",
+    name: "Flipkart HR",
     lastMessage: "Looking forward to your project!",
     time: "2h ago",
     avatar: "https://placehold.co/40x40/FFD700/000000?text=AI"
   },
   {
     id: 2,
-    name: "Samantha Lee",
+    name: "Samantha",
     lastMessage: "Did you review the PR?",
     time: "Yesterday",
     avatar: "https://placehold.co/40x40/ADD8E6/000000?text=SL"
   },
   {
     id: 3,
-    name: "Alex Johnson",
+    name: "Prabhas",
     lastMessage: "Okay, sounds good!",
     time: "Mon",
     avatar: "https://placehold.co/40x40/FFB6C1/000000?text=AJ"
   },
   {
     id: 4,
-    name: "Michael Chen",
+    name: "Amarnath",
     lastMessage: "Let's connect soon.",
     time: "Last Week",
     avatar: "https://placehold.co/40x40/A9A9A9/FFFFFF?text=MC"
   }
 ];
-
-// ... (rest of your dummyData.js content, if any) ...

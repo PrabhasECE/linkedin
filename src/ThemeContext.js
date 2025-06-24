@@ -1,4 +1,3 @@
-// src/ThemeContext.js
 import { createContext } from 'react';
 
 // Create a context for the color mode (light/dark)
